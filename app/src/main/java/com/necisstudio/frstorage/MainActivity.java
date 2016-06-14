@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull final FirebaseAuth firebaseAuth) {
-                Task<AuthResult> user = firebaseAuth.signInWithEmailAndPassword("aerdy4@gmail.com", "annabe14");
+                Task<AuthResult> user = firebaseAuth.signInWithEmailAndPassword("aerdyxxxx@gmail.com", "xxxxxx");
                 user.addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
